@@ -1,0 +1,362 @@
+.container-1 {
+  background-image: url(./images/bg-hero-desktop.svg);
+  background-color: #edfbfe;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  gap:2rem
+}
+.primero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.boton-try {
+  border-radius: 1rem;
+  height: 2rem;
+  width: 8rem;
+  background-color: #ffffff;
+  border: #202222;
+  box-shadow: #202222 0.1rem 0.1rem 0.1rem 0.1rem;
+}
+
+.boton-free {
+  border-radius: 1rem;
+  height: 2rem;
+  width: 10rem;
+  background-color: #f653c0;
+  border: white;
+  color: white;
+  font-size: 0.5em;
+  margin-top: 2rem;
+}
+
+.texto-1 {
+  font-size: 0, 50rem;
+  color: #202222;
+}
+
+.illustration-mockups {
+  width: 20rem;
+}
+
+.division-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.medio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.uno {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 4rem;
+  border: 0.3rem solid #f7f7f7;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 40rem;
+}
+
+.dos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 4rem;
+  border: 0.3rem solid #f7f7f7;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 40rem;
+  position: relative;
+  bottom: 3rem;
+}
+
+.tres {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 4rem;
+  border: 0.3rem solid #f7f7f7;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 40rem;
+  position: relative;
+  bottom: 6rem;
+}
+.texto-2 {
+  font-size: 1em;
+  color: #202222;
+}
+
+.ultimo {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 14rem;
+  z-index: 2;
+}
+.inferior {
+  border: 0.3rem solid #f7f7f7;
+  border-radius: 0.5rem;
+  background-color: white;
+  width: 20rem;
+  height: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.creado {
+  background-color: #06252f;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  color: white;
+  width: 100%;
+  margin-bottom: 10rem;
+}
+
+.azul {
+  background-color: #06252f;
+  width: 100%;
+  height: 6rem;
+}
+.contacto {
+  position: relative;
+  top: -280px;
+  z-index: 1;
+background-color: red;
+}
+
+ul {
+  list-style: none;
+}
+.derechos {
+  align-self: flex-end;
+  position: relative;
+}
+
+.tlf {
+  margin-right: 1rem;
+  width: 1rem;
+  height: 1rem;
+}
+
+.location-1 {
+  margin-right: 1rem;
+  width: 1rem;
+  height: 1rem;
+  position: relative;
+  top: 1rem;
+}
+.phone-1 {
+  margin-right: 1rem;
+  width: 1rem;
+  height: 1rem;
+  position: relative;
+  top: 1rem;
+}
+.email-1 {
+  margin-right: 1rem;
+  width: 1rem;
+  height: 1rem;
+  position: relative;
+  top: 1rem;
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+}
+
+.phone {
+  display: flex;
+  flex-direction: row;
+}
+.email {
+  display: flex;
+  flex-direction: row;
+}
+
+.redes {
+  position: relative;
+  top: 4rem;
+}
+.facebook {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: white;
+  border-radius: 10rem;
+  padding: 0.3rem;
+}
+
+.instagram {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: white;
+  border-radius: 10rem;
+  padding: 0.3rem;
+}
+
+.twitter {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: white;
+  border-radius: 10rem;
+  padding: 0.3rem;
+}
+.logo-inferior {
+  position: relative;
+  top: 3rem;
+  margin-left: 14rem;
+}
+
+@media (max-width: 600px) {
+  .container-1 {
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-color: #edfbfe;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+
+  .division-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    gap: 2rem;
+  }
+
+  .uno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 18rem;
+    border-radius: 1rem;
+    box-shadow: gray 0.25rem 0.25rem 0.25rem 0.25rem;
+  }
+
+  .dos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 18rem;
+    border-radius: 1rem;
+    box-shadow: gray 0.25rem 0.25rem 0.25rem 0.25rem;
+  }
+
+  .tres {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 18rem;
+    border-radius: 1rem;
+    box-shadow: gray 0.25rem 0.25rem 0.25rem 0.25rem;
+  }
+
+  .boton-free {
+    margin-top: 1rem;
+    width: 8rem;
+    height: 2rem;
+  }
+
+  .creado {
+    background-color: #06252f;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    color: white;
+    width: 100%;
+    margin-bottom: 10rem;
+    top: 10rem;
+    padding-left:1.5rem;
+    
+    
+  }
+
+
+  .logo-inferior {
+    position: relative;
+    bottom: 26rem;
+    margin-left: 0.50rem;
+  }
+
+  .azul{
+    position: relative;
+    top: 4rem;
+
+    width: 100%;
+    background-color: #06252F;
+  }
+
+  .contacto {
+    position: relative;
+    width: 40rem;
+    top: -280px;
+    left: -1rem;
+    z-index: 1;
+    background-color:#06252F;
+  }
+
+  .creado{
+    width: 100%;
+    background-color: #06252F;
+  
+  }
+
+  .redes{
+
+    
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+    gap: 2rem;
+    background-color: #06252F;
+    margin-bottom: 2rem;
+    position: relative;
+    right: 1.50rem;
+    width: 10rem;
+    top: -3rem;
+    left: 6rem;
+  
+
+   
+    
+}
+
+.derechoss{
+    position: relative;
+    top: 3rem;;
+    left: -20rem;
+    color: white;
+}
+
+
+}
